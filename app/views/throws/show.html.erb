@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @throw.name %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @throw.comment %>
+</p>
+
+<%= link_to 'Edit', edit_throw_path(@throw) %> |
+<%= link_to 'Back', throws_path %>
